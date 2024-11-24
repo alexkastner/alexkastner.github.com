@@ -1,0 +1,29 @@
+/* Basic styling for the website */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.content {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
